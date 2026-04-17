@@ -1,15 +1,17 @@
-letras=input("digite uma dessas letras(A,T,C,G)").upper()
-if letras== 'A':
-    print('T')
+num = int(input("escolha um numero"))
 
-elif letras == 'T':
-    print('A')
+num2 = int(input("escolha outro numero"))
 
-elif letras == 'C':
-    print('G')
+print("1)escolha um numero")
 
-elif letras == 'G':
-    print('C')
+print("2)soma de 2 numero")
 
-else:
-    print("letra invalida!")
+print("3) produto entre 2 numero")
+
+print("4)divisao entre 2 numero")
+
+prince = input("digite o numero da opçao escolhida")
+
+if  prince == "1":
+    result = num + num2
+    print("seu resultado",result)
